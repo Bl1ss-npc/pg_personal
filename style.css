@@ -221,7 +221,17 @@ header p{
 /* Cambia el fondo del pie de página a azul */
 }
 
+
+/*tamaño de la foto*/
 header img {
     width: 100%;
     height: auto;
+}
+
+/*alinear texto con el titulo*/
+.hola p,
+.mi p {
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
 }
