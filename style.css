@@ -220,3 +220,8 @@ header p{
     background-color: #203F68;
 /* Cambia el fondo del pie de página a azul */
 }
+
+header img {
+    width: 100%;
+    height: auto;
+}
