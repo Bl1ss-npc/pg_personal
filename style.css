@@ -1,0 +1,222 @@
+
+* {
+    box-sizing: border-box;
+}
+/* Incluye el padding y los bordes dentro del tamaño de los elementos */
+
+/*Para quitar margenes y padding de todos los elementos*/
+
+header, main, footer,section, body,h1, h2, h3{
+    margin:0;
+    padding:0;
+}
+/* Elimina los espacios exteriores e interiores de estos elementos */
+
+
+/*para centrar el contenido de la pagina*/
+body{
+    text-align: center;
+
+}
+/* Centra el texto por defecto de la página */
+
+
+/*Para centrar y poner vertical el menu*/ 
+.menu {
+    text-align: center;
+    margin-top: 15px;
+}
+/* Centra el menú y deja espacio por encima */
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 14px;
+    color:aliceblue
+}
+/* Coloca cada enlace en una línea y cambia su tamaño y color */
+
+
+/*Para color de fondo al header y color de letra a h1 y p*/
+header{
+    background-color: #203F68
+}
+/* Cambia el color de fondo de la cabecera */
+
+h1{
+    color: aliceblue;
+}
+/* Cambia el color del título principal */
+
+header p{
+    color: rgb(255, 255, 255);
+}
+/* Pone el texto de los párrafos de la cabecera en blanco */
+
+
+
+/*Para poner color de fondo a la seccion de sobre mi, color de letra a h2 y linea de debajo del titulo. :indet para mover solo el texto (*/
+.hola{
+    background-color: #5fa8f538;
+}
+/* Añade un fondo azul claro a la sección de presentación */
+
+.hola h2{
+    border-bottom: 3px solid #4a77b3;
+    color: #2e4c76;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+}
+/* Da color al título, añade una línea inferior y lo alinea a la izquierda */
+
+
+
+.mi h2{
+    border-bottom: 3px solid #4f7ab2;
+    color: #2e4c76;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+}
+/* Da estilo al título de la sección sobre mí */
+
+
+
+.aficiones h2{
+    border-bottom: 3px solid #d61313;
+    color: #d61313;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+}
+/* Da color rojo al título de las aficiones y añade una línea debajo */
+
+.aficiones{
+    background-color: #d613131f;
+    
+}
+/* Añade un fondo rojizo claro a la sección de aficiones */
+
+.caja1,.caja2,.caja3,.caja4,.caja5   {
+    border-bottom: 1px solid #7c0505;
+    border-top: 1px solid #7c0505;
+    border-left: 1px solid #7c0505;
+    border-right: 1px solid #7c0505;
+    border-radius: 10px;
+
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background-color: #ffffff;
+}
+/* Crea los cuadros blancos de las cinco aficiones con bordes redondeados y márgenes */
+
+
+
+.caja1, .caja2, .caja3, .caja4, .caja5 {
+    padding: 6px 14px;
+}
+/* Añade espacio interior a los cuadros de las aficiones */
+
+.caja1 h3,
+.caja2 h3,
+.caja3 h3,
+.caja4 h3,
+.caja5 h3 {
+    text-align: left;
+    text-indent: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #7c0505;
+}
+/* Alinea los títulos de las aficiones a la izquierda y les da color */
+
+.caja1 p,
+.caja2 p,
+.caja3 p,
+.caja4 p,
+.caja5 p {
+    text-align: left;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Alinea las descripciones y elimina sus márgenes */
+
+
+
+.enlaces1 h2 {
+    border-bottom: 3px solid #094a0a;
+    color: #0e4413;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+    
+}
+/* Da color verde al título de enlaces recomendados y añade una línea debajo */
+
+/*Para crear los bordes y el color de fondo de los enlaces recomendados*/
+.enlace2, .enlace3, .enlace4 {
+    border-bottom:1px solid #094a0a;
+    border-top:1px solid #094a0a;
+    border-left:1px solid #094a0a;
+    border-right:1px solid #094a0a;
+    border-radius:10px;
+
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    background-color: #fdfefd;
+}
+/* Crea los cuadros blancos de los tres enlaces con bordes verdes */
+
+.enlace2, 
+.enlace3, 
+.enlace4 {
+    padding: 6px 14px;
+}
+/* Añade espacio interior a los cuadros de los enlaces */
+
+ .enlace2 p,
+ .enlace3 p,
+ .enlace4 p {
+    text-align: left;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Alinea las descripciones de los enlaces y elimina sus márgenes */
+
+
+
+.enlace2,
+.enlace3,
+.enlace4 {
+    text-align: left;
+    margin-left: 14px;
+   
+}
+/* Alinea el contenido a la izquierda y ajusta el margen izquierdo */
+
+.enlace2 a,
+.enlace3 a,
+.enlace4 a {
+    color: #076110;
+}
+/* Cambia el color de los enlaces a verde */
+
+.enlaces1{
+    background-color: #1da32b33;
+}
+/* Añade un fondo verde claro a la sección de enlaces */
+
+.footer{
+    background-color: #203F68;
+/* Cambia el fondo del pie de página a azul */
+}
